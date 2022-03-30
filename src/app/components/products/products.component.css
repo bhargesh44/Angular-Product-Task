@@ -1,0 +1,39 @@
+.main-div {
+  background: #f5f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-div h1 {
+  text-align: center;
+}
+.card-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid lightgray;
+  align-items: center;
+}
+.product-btn {
+  background: #1a3c6b;
+  color: white;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.img {
+  border-radius: 50%;
+}
+.card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

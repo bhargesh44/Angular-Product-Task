@@ -1,0 +1,44 @@
+.action-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-btn {
+  border-radius: 24px;
+}
+.mat-dialog-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.close-icon {
+  cursor: pointer;
+  font-size: 30px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 24px;
+}
+
+.error-div {
+  border: 1px solid red;
+  background: #ff9494;
+  border-radius: 5px;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.error-div > mat-icon {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 10px !important ;
+}
